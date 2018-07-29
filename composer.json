@@ -1,0 +1,5 @@
+{
+    "require": {
+        "recurly/recurly-client": "2.10.*"
+    }
+}

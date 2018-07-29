@@ -1,0 +1,13 @@
+language: php
+php:
+  - 7.1
+  - 7.0
+  - 5.6
+  - 5.5
+  - 5.4
+  - hhvm
+sudo: false
+dist: trusty
+install:
+  - composer install --dev
+script: vendor/phpunit/phpunit/phpunit Tests
